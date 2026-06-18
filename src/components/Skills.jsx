@@ -1,15 +1,44 @@
-const SkillsSection = () => {
-    return (
-        <section className="skills-section">
-        <h2>My Skills</h2>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Git/Github</li>
-        <li>Figma</li>
-      </section>
-    )
-}
+export default function SkillsSection () {
+  return (
+    <section id='Skills' className= ' bg-white' >
+      <h1 className="text-3xl font-bold text-gray-500 text-center">My Skills</h1>
 
-export default SkillsSection
+      <div className='grid grid-cols-4 text-gray-400 p-6 gap-4 '>
+
+        <div className='bg-white p-4'>
+          <h2>Html</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>CSS</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>JavaScript</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>React</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>Git/Github</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>Figman</h2>
+        </div>
+
+        <div className='bg-white p-4'>
+          <h2>TailwindCSS</h2>
+        </div>
+
+         <div className='bg-white p-4'>
+          <h2>Designing</h2>
+          
+        </div>
+
+      </div>
+    </section>
+  )
+}
