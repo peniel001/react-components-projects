@@ -9,8 +9,8 @@ export default function HomeSection () {
         className='absolute inset-0 w-full h-full object-cover'
       />
       <div className='relative z-10 flex flex-col items-center justify-center h-full text-slate-100 bg-black/40'>
-        <h1 className='text-4xl font-bold'>Welcome to Peniel's Portfolio</h1>
-        <p className='mt-4 text-lg'>Looking for something?.</p>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold'>Welcome to Peniel's Portfolio</h1>
+        <p className='mt-4 text-sm sm:text-base md:text-lg lg:text-xl'>Looking for something?.</p>
       </div>
     </section>
   )
